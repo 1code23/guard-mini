@@ -1,0 +1,138 @@
+.wx_flex_container {
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 24rpx 40rpx 120rpx;
+  background-color: #f3f4f5;
+
+  .white-box {
+    margin-top: 24rpx;
+    background-color: #ffffff;
+    border-radius: 32rpx;
+    padding: 32rpx;
+  }
+
+  .flatBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32rpx 0;
+
+    .flatItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .flatTitle {
+      font-weight: bold;
+      font-size: 32rpx;
+      color: #000000;
+      line-height: 40rpx;
+    }
+
+    .flatDesc {
+      font-size: 26rpx;
+      color: rgba($color: #000000, $alpha: 0.4);
+    }
+    .arrowImg {
+      width: 48rpx;
+      height: 48rpx;
+      margin-right: 10rpx;
+    }
+  }
+
+  .paddingN {
+    padding: 16rpx 0;
+  }
+}
+
+.footer-box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 140rpx;
+  padding: 0 90rpx;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-blue {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #0066ff;
+  border-radius: 48rpx 48rpx 48rpx 48rpx;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-red {
+  background-color: #eee;
+  color: #f01818;
+  margin-right: 20rpx;
+}
+
+.addicon {
+  margin: 0 16rpx 0 0rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.curLocBtns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48rpx 32rpx;
+
+  .btn-common {
+    width: 100%;
+    height: 88rpx;
+    border-radius: 58rpx;
+    color: #ffffff;
+    font-size: 32rpx;
+    font-weight: bold;
+    background-color: #0066ff;
+    border: 1rpx solid #0066ff;
+    text-align: center;
+    line-height: 88rpx;
+  }
+  .btnNav {
+    background-color: transparent;
+    color: #0066ff;
+    margin-right: 20rpx;
+  }
+}
+
+.mainContentBox {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; /*方向*/
+  -webkit-line-clamp: 1; /*设置在第几行添加省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.form-item {
+  margin-bottom: 20rpx;
+
+  .form-input {
+    height: 86rpx;
+    background: rgba(178, 178, 178, 0.1);
+    border-radius: 44rpx;
+    font-size: 32rpx;
+    padding-left: 40rpx;
+    margin-top: 10rpx;
+  }
+
+  .form-label {
+    font-weight: bold;
+    font-size: 32rpx;
+    color: #000000;
+    line-height: 50rpx;
+  }
+}

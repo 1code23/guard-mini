@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "wxfont";
+	src: url('~@/static/iconfont/iconfont.ttf') format('truetype');
+}
+
+.wxfont {
+	font-family: "wxfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit:before {
+  content: "\e63f";
+}
+
+.icon-gengduo:before {
+  content: "\e66f";
+}
+
+.icon-minus:before {
+  content: "\e7d4";
+}
+
+.icon-plus:before {
+  content: "\e7f2";
+}
+
+.icon-search:before {
+  content: "\e80a";
+}
+

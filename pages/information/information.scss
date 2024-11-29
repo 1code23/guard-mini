@@ -1,0 +1,231 @@
+/deep/ .uni-popup .uni-popup__wrapper {
+  border-radius: 32rpx;
+}
+.curContent {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.mainBox {
+  padding: 24rpx 40rpx;
+  background: #f7f7f7;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .BoxList {
+    background: #f7f7f7;
+
+    ::-webkit-scrollbar {
+      display: none;
+      /* Chrome Safari */
+    }
+
+    .scroll-Y {
+      // height: calc(100vh - 300rpx);
+      // padding-bottom: 20rpx;
+      box-sizing: border-box;
+    }
+  }
+
+  .tabBox {
+    width: 670rpx;
+    background: #fff;
+    border-radius: 34rpx;
+    margin-bottom: 44rpx;
+    padding: 6rpx;
+
+    .tabName {
+      width: 324rpx;
+      height: 68rpx;
+      border-radius: 34rpx;
+    }
+
+    .activeTab {
+      color: #fff;
+      background-color: #1bd17b;
+    }
+
+    .labelBox {
+      position: relative;
+
+      .flag {
+        .inflag {
+          width: 14rpx;
+          height: 14rpx;
+          border-radius: 50%;
+          background-color: #ff3a3a;
+        }
+
+        position: absolute;
+        top: -4rpx;
+        right: -9rpx;
+        width: 14rpx;
+        height: 14rpx;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 3.5rpx;
+      }
+    }
+  }
+
+  .awaitDoBox {
+    width: 670rpx;
+    background: #f7f7f7;
+    padding-bottom: 140rpx;
+    box-sizing: border-box;
+
+    .timeTitle {
+      margin-bottom: 20rpx;
+    }
+
+    .todoList {
+      margin-bottom: 24rpx;
+      background: #ffffff;
+      border-radius: 32rpx;
+      padding: 34rpx 32rpx;
+
+      .imgIcon {
+        width: 88rpx;
+        height: 88rpx;
+        margin-right: 24rpx;
+      }
+
+      .dolistInfo {
+        width: 494rpx;
+      }
+
+      .ImgBox {
+        position: relative;
+
+        .flag {
+          .inflag {
+            width: 14rpx;
+            height: 14rpx;
+            border-radius: 50%;
+            background-color: #ff3a3a;
+          }
+
+          position: absolute;
+          top: -3rpx;
+          right: 26rpx;
+          width: 14rpx;
+          height: 14rpx;
+          border-radius: 50%;
+          background-color: #fff;
+          padding: 4rpx;
+        }
+      }
+    }
+	
+	.judgeBox{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 32rpx;
+
+		.btnCommon{
+			width: 239rpx;
+			height: 80rpx;
+			border-radius: 40rpx;
+			line-height: 80rpx;
+			background: #0066FF;
+			border-radius: 48rpx 48rpx 48rpx 48rpx;
+			font-size: 30rpx;
+			color: #fff;
+			text-align: center;
+
+		}
+		
+		.refuse{
+			background-color: #EEEEEE;
+			color: #F01818;
+		}
+		.refuse2{
+			background-color: transparent;
+			color: rgba(240, 24, 24, 0.4);
+		}
+		.agree{
+			margin-left: 32rpx;
+		}
+		.agree2{
+			background-color: transparent;
+			color: rgba(0, 102, 255, 0.60);
+		}
+	}
+  }
+
+  .nodataimg {
+    width: 304rpx;
+    height: 304rpx;
+    margin-top: 35%;
+  }
+
+  .popup-content {
+    border-radius: 32rpx;
+    background-color: #fff;
+    width: 654rpx;
+    box-sizing: border-box;
+
+    .pountBox {
+      position: relative;
+    }
+
+    .puountTitle {
+      font-size: 40rpx;
+      margin-top: 32rpx;
+    }
+
+    .pounttitleT {
+      font-size: 36rpx;
+      margin-bottom: 24rpx;
+    }
+
+    .pountPng {
+      width: 654rpx;
+      height: 332rpx;
+    }
+
+    .btnclose {
+      position: absolute;
+      top: 30rpx;
+      right: 30rpx;
+      width: 44rpx;
+      height: 44rpx;
+    }
+
+    .pountdesc {
+      font-size: 28rpx;
+      width: 520rpx;
+      height: 120rpx;
+      text-align: center;
+    }
+
+    .btn {
+      position: relative;
+      width: 574rpx;
+      height: 88rpx;
+      line-height: 88rpx;
+      border-radius: 28rpx;
+      margin: 32rpx 0 48rpx;
+      padding: 0;
+      background: #1bd17b;
+      overflow: hidden;
+      text-align: center;
+      color: #fff;
+      font-size: 32rpx;
+      font-weight: 500;
+
+      .official-account {
+        position: absolute;
+        z-index: 20211209;
+        right: -14px;
+        top: -40px;
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.mt8 {
+  margin-top: 8rpx;
+}

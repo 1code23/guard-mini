@@ -1,0 +1,248 @@
+/deep/ .uni-popup .uni-popup__wrapper {
+  border-radius: 32rpx;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff !important;
+  margin-bottom: 48rpx;
+}
+.curContent {
+  height: 100vh;
+  overflow-y: hidden;
+
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 48rpx 48rpx;
+
+    .btn-common {
+      font-weight: bold;
+      font-size: 32rpx;
+      color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      height: 88rpx;
+      line-height: 88rpx;
+      text-align: center;
+      margin-top: 24rpx;
+    }
+    .popup-title {
+      font-size: 34rpx;
+      color: #000000;
+    }
+    .btnPart {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .btnCancel {
+      color: #000000;
+      background: rgba(178, 178, 178, 0.22);
+      border-radius: 44rpx;
+    }
+    .btnConfirm {
+      background-color: #0066ff;
+      color: #fff;
+      border-radius: 44rpx;
+      margin-left: 20rpx;
+    }
+    .msgBox {
+      width: 566rpx;
+      background: #eeeeee;
+      border-radius: 24rpx 24rpx 24rpx 24rpx;
+      padding: 24rpx;
+      font-size: 30rpx;
+      color: #000000;
+      line-height: 44rpx;
+    }
+  }
+}
+.mainBox {
+  padding: 24rpx 40rpx;
+  background: #f7f7f7;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .BoxList {
+    background: #f7f7f7;
+
+    ::-webkit-scrollbar {
+      display: none;
+      /* Chrome Safari */
+    }
+
+    .scroll-Y {
+      // height: calc(100vh - 300rpx);
+      // padding-bottom: 20rpx;
+      box-sizing: border-box;
+    }
+  }
+
+  .tabBox {
+    width: 670rpx;
+    background: #fff;
+    border-radius: 34rpx;
+    margin-bottom: 44rpx;
+    padding: 6rpx;
+
+    .tabName {
+      width: 324rpx;
+      height: 68rpx;
+      border-radius: 34rpx;
+    }
+
+    .activeTab {
+      color: #fff;
+      background-color: #0066ff;
+    }
+
+    .labelBox {
+      position: relative;
+
+      .flag {
+        .inflag {
+          width: 14rpx;
+          height: 14rpx;
+          border-radius: 50%;
+          background-color: #ff3a3a;
+        }
+
+        position: absolute;
+        top: -4rpx;
+        right: -9rpx;
+        width: 14rpx;
+        height: 14rpx;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 3.5rpx;
+      }
+    }
+  }
+
+  .awaitDoBox {
+    width: 670rpx;
+    background: #f7f7f7;
+    padding-bottom: 140rpx;
+    box-sizing: border-box;
+
+    .timeTitle {
+      margin-bottom: 20rpx;
+    }
+
+    .todoList {
+      margin-bottom: 24rpx;
+      background: #ffffff;
+      border-radius: 32rpx;
+      padding: 34rpx 32rpx;
+
+      .imgIcon {
+        width: 88rpx;
+        height: 88rpx;
+        margin-right: 24rpx;
+      }
+
+      .dolistInfo {
+        width: 100%;
+      }
+
+      .ImgBox {
+        position: relative;
+
+        .flag {
+          .inflag {
+            width: 14rpx;
+            height: 14rpx;
+            border-radius: 50%;
+            background-color: #ff3a3a;
+          }
+
+          position: absolute;
+          top: -3rpx;
+          right: 26rpx;
+          width: 14rpx;
+          height: 14rpx;
+          border-radius: 50%;
+          background-color: #fff;
+          padding: 4rpx;
+        }
+      }
+    }
+  }
+
+  .nodataimg {
+    width: 304rpx;
+    height: 304rpx;
+    margin-top: 35%;
+  }
+
+  .popup-content {
+    border-radius: 32rpx;
+    background-color: #fff;
+    width: 654rpx;
+    box-sizing: border-box;
+
+    .pountBox {
+      position: relative;
+    }
+
+    .puountTitle {
+      font-size: 40rpx;
+      margin-top: 32rpx;
+    }
+
+    .pounttitleT {
+      font-size: 36rpx;
+      margin-bottom: 24rpx;
+    }
+
+    .pountPng {
+      width: 654rpx;
+      height: 332rpx;
+    }
+
+    .btnclose {
+      position: absolute;
+      top: 30rpx;
+      right: 30rpx;
+      width: 44rpx;
+      height: 44rpx;
+    }
+
+    .pountdesc {
+      font-size: 28rpx;
+      width: 520rpx;
+      height: 120rpx;
+      text-align: center;
+    }
+
+    .btn {
+      position: relative;
+      width: 574rpx;
+      height: 88rpx;
+      line-height: 88rpx;
+      border-radius: 28rpx;
+      margin: 32rpx 0 48rpx;
+      padding: 0;
+      background: #1bd17b;
+      overflow: hidden;
+      text-align: center;
+      color: #fff;
+      font-size: 32rpx;
+      font-weight: 500;
+
+      .official-account {
+        position: absolute;
+        z-index: 20211209;
+        right: -14px;
+        top: -40px;
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.mt8 {
+  margin-top: 8rpx;
+}

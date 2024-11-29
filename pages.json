@@ -1,0 +1,337 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom", //custom不显示导航栏
+				"enablePullDownRefresh": false
+				// "enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#fff",
+				// "enablePullDownRefresh": false
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/place/place",
+			"style": {
+				"navigationBarTitleText": "位置",
+				"navigationBarBackgroundColor": "#fff",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+			"root": "page_writeOff",
+			"pages": [{
+					"path": "writeOff/writeOff",
+					"style": {
+						"navigationBarTitleText": "注销账号",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "binddevice/binddevice",
+					"style": {
+						"navigationBarTitleText": "添加设备",
+						"navigationBarBackgroundColor": "#fff",
+						// "navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "family/family",
+					"style": {
+						"navigationBarTitleText": "家庭成员",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "privacy/privacy",
+					"style": {
+						"navigationBarTitleText": "帮助与反馈",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "familyinfo/familyinfo",
+					"style": {
+						"navigationBarTitleText": "成员信息",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "setpage/setpage",
+					"style": {
+						"navigationBarTitleText": "设置",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "questiondetail/questiondetail",
+					"style": {
+						"navigationBarTitleText": "问题详情",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "feedback/feedback",
+					"style": {
+						"navigationBarTitleText": "意见反馈",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "devicecode/devicecode",
+					"style": {
+						"navigationBarTitleText": "",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "webview/webview",
+					"style": {
+						"navigationBarTitleText": "关注公众号",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "publicpage/publicpage",
+					"style": {
+						"navigationBarTitleText": "",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "member/member",
+					"style": {
+						"navigationBarTitleText": "会员中心",
+						"navigationBarBackgroundColor": "#000",
+						// "navigationStyle": "custom",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "buyrecord/buyrecord",
+					"style": {
+						"navigationBarTitleText": "购买记录",
+						"navigationBarBackgroundColor": "#F5F5F5",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "buy/buy",
+					"style": {
+						"navigationBarTitleText": "购买vip会员",
+						"navigationBarBackgroundColor": "#fff",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "errorNetwork/errorNetwork",
+					"style": {
+						"navigationBarTitleText": "暂无网络",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "page_home",
+			"pages": [{
+					"path": "harass/harass",
+					"style": {
+						"navigationBarTitleText": "骚扰拦截"
+					}
+				},
+				{
+					"path": "contact/contact",
+					"style": {
+						"navigationBarTitleText": "编辑联系人"
+					}
+				},
+				{
+					"path": "record/record",
+					"style": {
+						"navigationBarTitleText": "拦截记录"
+					}
+				},
+				{
+					"path" : "elecFence/elecFence",
+					"style" : 
+					{
+						"navigationBarTitleText" : "电子围栏"
+					}
+				},
+				{
+					"path" : "track/track",
+					"style" : 
+					{
+						"navigationBarTitleText" : "历史轨迹"
+					}
+				},
+				{
+					"path" : "editFence/editFence",
+					"style" : 
+					{
+						"navigationBarTitleText" : "编辑电子围栏"
+					}
+				},
+				{
+					"path" : "addrSuggest/addrSuggest",
+					"style" : 
+					{
+						"navigationBarTitleText" : ""
+					}
+				}
+			]
+		},
+		{
+			"root": "page_communication",
+			"pages": [{
+				"path": "urlintercept/urlintercept",
+				"style": {
+					"navigationBarTitleText": "网址拦截",
+					"navigationBarBackgroundColor": "#fff",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		{
+			"root": "page_detail",
+			"pages": [{
+					"path": "mineInfo/mineInfo",
+					"style": {
+						"navigationBarTitleText": "个人信息",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				},
+
+				{
+					"path": "devicedetail/devicedetail",
+					"style": {
+						"navigationBarTitleText": "老人信息",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setchildinfo/setchildinfo",
+					"style": {
+						"navigationBarTitleText": "设置老人信息",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "setidentity/setidentity",
+					"style": {
+						"navigationBarTitleText": "设置身份",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "bindapply/bindapply",
+					"style": {
+						"navigationBarTitleText": "绑定申请",
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"iconfontSrc": "static/iconfont.ttf",
+		"color": "#999", // tab 上的文字默认颜色
+		"selectedColor": "#0066FF", //选中时字体颜色
+		"backgroundColor": "#Fff", //底部背景色
+		"fontSize": "18px", //字体大小
+		"spacing": "5px", //字体到图标的距离
+		"height": "50px", //底部高
+		"list": [{
+				// "pagePath": "pages/index/index",
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/img/nohome2x.png",
+				"selectedIconPath": "static/img/home2x.png"
+			},
+			// {
+			// 	"pagePath": "pages/place/place",
+			// 	"text": "位置",
+			// 	"iconPath": "static/img/nolocation2x.png",
+			// 	"selectedIconPath": "static/img/location2x.png"
+			// },
+			{
+				"pagePath": "pages/information/information",
+				"text": "消息",
+				"iconPath": "static/img/notabbarmessage2x.png",
+				"selectedIconPath": "static/img/tabbarMessage2x.png"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/img/nomes2x.png",
+				"selectedIconPath": "static/img/mes2x.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4",
+			"softinputMode": "adjustResize"
+		}
+	}
+}

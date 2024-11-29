@@ -1,0 +1,341 @@
+/* 公共的css文件 */
+.disfr {
+	display: flex;
+}
+
+.dja {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.djs {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.dj {
+	display: flex;
+	justify-content: center;
+}
+
+.da {
+	display: flex;
+	align-items: center;
+}
+
+.djb {
+	display: flex;
+	justify-content: space-between;
+}
+
+.je {
+	justify-content: flex-end;
+}
+
+.jl {
+	justify-content: flex-start;
+}
+
+.al {
+	align-items: flex-start;
+}
+
+.juq {
+	justify-content: space-around;
+}
+
+.ac {
+	align-items: center;
+}
+
+.ab {
+	align-items: flex-end;
+}
+
+.jsb {
+	justify-content: space-between;
+}
+
+.jc {
+	justify-content: center;
+}
+
+.fc {
+	display: flex;
+	flex-direction: column;
+}
+
+.disN {
+	display: none;
+}
+
+.disinbl {
+	display: inline-block;
+}
+
+.poft {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.pofb {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.flex1 {
+	flex: 1;
+}
+
+.flexWrap {
+	flex-wrap: wrap;
+}
+
+.fe {
+	justify-content: flex-end;
+}
+
+.tr {
+	text-align: right;
+}
+
+.tl {
+	text-align: left;
+}
+
+.tc {
+	text-align: center
+}
+
+.ml10 {
+	margin-left: 10rpx;
+}
+
+.mr10 {
+	margin-right: 10rpx;
+}
+
+.ml16 {
+	margin-left: 16rpx;
+}
+
+.ml20 {
+	margin-left: 20rpx;
+}
+
+.ml32 {
+	margin-left: 32rpx;
+}
+
+.ml40 {
+	margin-left: 40rpx;
+}
+.ml44{
+	margin-left: 44rpx;
+}
+.mtb12 {
+	margin: 12rpx 0;
+}
+
+.mb10 {
+	margin-bottom: 10rpx;
+}
+.mt8{
+	margin-top: 8rpx;
+}
+.mt20 {
+	margin-top: 20rpx;
+}
+.mb8{
+	margin-bottom: 8rpx;
+}
+.mb18{
+	margin-bottom: 18rpx;
+}
+.mb20 {
+	margin-bottom: 20rpx;
+}
+.mb40 {
+	margin-bottom: 40rpx !important;
+}
+.mb62 {
+	margin-bottom: 62rpx !important;
+}
+
+.wi100 {
+	width: 100%;
+}
+
+.wi88 {
+	width: 88%;
+}
+
+.wi12 {
+	width: 12%;
+}
+
+.bgcF {
+	background-color: #fff;
+}
+
+.bgc17B {
+	background-color: #0066FF;
+}
+
+.cof {
+	color: #fff;
+}
+
+.color0 {
+	color: #000;
+}
+
+.color9 {
+	color: #999;
+}
+
+.color3 {
+	color: #333;
+}
+
+.color6 {
+	color: #666;
+}
+
+.color9f {
+	color: #00A9FF;
+}
+
+.color17B {
+	/* color: #1BD17B; */
+	color: #0066FF;
+}
+.colorF0{
+	color: #F01818;
+}
+.colorB {
+	color: #128EFF;
+}
+
+.colorc {
+	color: #ccc;
+}
+
+.color58 {
+	color: #EB5F58;
+}
+
+.fz14 {
+	font-size: 14rpx;
+}
+
+.fz24 {
+	font-size: 24rpx;
+}
+
+.fz26 {
+	font-size: 26rpx;
+}
+.fz27 {
+	font-size: 27rpx;
+}
+.fz28 {
+	font-size: 28rpx;
+}
+
+.fz30 {
+	font-size: 30rpx;
+}
+
+.fz32 {
+	font-size: 32rpx;
+}
+
+.fz35 {
+	font-size: 35rpx;
+}
+.fz36 {
+	font-size: 36rpx;
+}
+.fz40 {
+	font-size: 40rpx;
+}
+
+.fz44 {
+	font-size: 44rpx;
+}
+.fz48 {
+	font-size: 48rpx;
+}
+.fz56 {
+	font-size: 56rpx;
+}
+
+.fw400 {
+	font-weight: 400;
+}
+
+.fw500 {
+	font-weight: 500;
+}
+.fw550 {
+	font-weight: 550;
+}
+.fw600 {
+	font-weight: 600;
+}
+
+.fw700 {
+	font-weight: 700;
+}
+
+.fw800 {
+	font-weight: 800;
+}
+
+.opactive5 {
+	opacity: 0.5;
+}
+.opacity4{
+	opacity: 0.4;
+}
+.opactive1 {
+	opacity: 1;
+}
+.opactive35 {
+	opacity: 0.35;
+}
+.opactive0 {
+	opacity: 0;
+}
+
+.br32 {
+	border-radius: 32rpx;
+}
+
+.borderbox {
+	box-sizing: border-box;
+}
+
+.ell {
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+}
+.ell2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical; /*方向*/
+	-webkit-line-clamp: 2; /*设置在第几行添加省略号 */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+.arrowBtn {
+	width: 48rpx;
+	height: 48rpx;
+}
